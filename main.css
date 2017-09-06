@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(skyblue,white);
+    background-attachment: fixed;
+}
+/*notes*/
+h1 {
+    color: crimson;
+}
+#first {
+    font-size: 20pt;
+}
+#second {
+    color: red;
+}
+.big {font-size: 25pt;} 
+

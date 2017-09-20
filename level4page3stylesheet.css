@@ -1,0 +1,19 @@
+div {font-family: helvetica;
+font-size: 40pt}
+h1 {text-align: center;
+font-family:courier;
+font-size: 15pt;
+    opacity: 0;
+  animation: blinking 5s linear infinite;
+}
+
+@keyframes blinking {
+  from,
+  49.9% {
+    opacity: 0;
+  }
+  50%,
+  to {
+    opacity: 1;
+  }
+}
